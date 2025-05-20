@@ -1,0 +1,36 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Crash logs
+crash.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.plan
+terraform.tfplan
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore generated files
+*.log
+*.bak
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python virtualenv (if applicable)
+.venv/
+env/
+__pycache__/
